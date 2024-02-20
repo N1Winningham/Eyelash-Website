@@ -141,3 +141,7 @@
     width: 20%;
     align-content: center;
 }
+
+@media (min-width: 900px) {
+    
+}
