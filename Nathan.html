@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image and Color Example</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        
+        .image-section {
+            background-image: url(Background.png); /* Specify the image URL */
+            background-size: cover;
+            background-position: center;
+            height: 50%; /* Adjust the height of the image section */
+        }
+
+        .content-section {
+            background-color: #f0f0f0; /* Set the background color */
+            height: 50%; /* Adjust the height of the content section */
+        }
+
+        /* Additional styling for content */
+        .content {
+            padding: 20px;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-section"></div>
+    <div class="content-section">
+        <div class="content">
+            <h1>Welcome to My Website</h1>
+            <p>This is the content of my website.</p>
+        </div>
+    </div>
+</body>
+</html>
