@@ -16,6 +16,7 @@
     background-size: cover;
     background-position: center;
 }
+
 .navbar{
     width: 85%;
     margin: auto;
@@ -82,9 +83,13 @@
     font-size: 40px;
 }
 
+.biography{
+    padding: 3%;
+}
+
 .biography p{
     font-family: customfont;
-    margin: 20px auto;
+    margin: 40px auto;
     font-weight: 100;
     line-height: 25px;
     font-size: 30px;
@@ -142,6 +147,213 @@
     align-content: center;
 }
 
-@media (min-width: 900px) {
+@media (max-width: 900px) {
+
+    .BackgroundPic{
+        padding:200px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width:80%;
+        z-index: -1;
+        align-items: center;
+    }
+
+    .biography{
+        padding:8%;
+    }
+
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 11%;
+        width: 80%;
+        color: beige;
+        line-height: 30px;
+        margin-top: 100%;
+    }
+
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .content{
+        padding-top: 15%;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 50px;
+        position: relative;
+        
+    }
+
+    .banner{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
     
+    .showoff{
+        margin-top: 100%;
+    }
+
+    .showoff1{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .showoff2{
+        padding: 5%;
+    }
+
+    .showoff4{
+        padding: 5%;
+    }
+
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
 }
+
+@media (max-width: 400px) {
+
+    .BackgroundPic{
+        padding:200px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width:80%;
+        z-index: -1;
+        align-items: center;
+    }
+
+    .biography{
+        padding:8%;
+    }
+
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 11%;
+        width: 80%;
+        color: beige;
+        line-height: 30px;
+        margin-top: 130%;
+    }
+
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .content{
+        padding-top: 15%;
+    }
+
+    .content p{
+        font-size: 40px;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 50px;
+        position: relative;
+        
+    }
+
+    .banner{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .showoff{
+        margin-top: 120%;
+    }
+
+    .showoff1{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .showoff2{
+        padding: 5%;
+    }
+
+    .showoff4{
+        padding: 5%;
+    }
+
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
+}
+
