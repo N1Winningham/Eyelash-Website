@@ -3,10 +3,16 @@
     padding: 0;
     font-family: sans-serif;
 }
+
+@font-face{
+    font-family: customfont;
+    src: url(Lobster_1.3.otf);
+}
+
 .banner{
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Background.png);
+    height: 2500px;
+    background-color: black;
     background-size: cover;
     background-position: center;
 }
@@ -19,8 +25,6 @@
     align-items: center;
     justify-content: space-between;
 }
-
-
 
 .logo{
     width: 360px;
@@ -58,9 +62,9 @@
 }
 
 .content{
+    top: 20%;
     width: 100%;
     position: absolute;
-    top: 50%;
     transform: translateY(-50%);
     text-align: center;
     color: beige;
@@ -79,37 +83,438 @@
     font-size: 40px;
 }
 
-button{
-    width: 200px;
-    padding: 15px 0;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 25px;
-    font-weight: bold;
-    border: 2px solid white;
-    background: transparent;
-    color: lightpink;
-    position: relative;
-    overflow: hidden;
+.biography{
+    padding: 3%;
 }
 
-span{
-    background: beige;
-    height: 100%;
-    width: 0%;
-    border-radius: 25px;
+.biography p{
+    font-family: customfont;
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 30px;
     position: absolute;
-    left: 0;
-    bottom: 0;
+    transform: translateY(-110%);
+    text-align: center;
+    left: 11%;
+    width: 1500px;
+    color: beige;
+    line-height: 30px;
+}
+
+.BOLD{
+    color: lightpink;
+}
+
+.BackgroundPic{
+    padding:250px 0;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:1200px;
     z-index: -1;
-    transition: 0.5s;
 }
 
-button:hover span{
-    width: 100%;
+.showoff p{
+    font-family: customfont;
+    margin: 50px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 40px;
+    position: absolute;
+    text-align: center;
+    color: beige;
+    position: relative;
+    color: lightpink;
 }
 
-button:hover{
-    border: none;
+.showoff1{
+    padding: 50px;
+    width: 20%;
+    align-content: center;
+    margin-left: 13%;
+}
+
+.showoff2{
+    padding: 50px;
+    width: 20%;
+    align-content: center;
+}
+
+.showoff4{
+    padding: 50px;
+    width: 20%;
+    align-content: center;
+}
+
+@media (max-width: 900px) {
+
+    .BackgroundPic{
+        padding:200px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width:80%;
+        z-index: -1;
+        align-items: center;
+    }
+
+    .biography{
+        padding:8%;
+    }
+
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 11%;
+        width: 80%;
+        color: beige;
+        line-height: 30px;
+        margin-top: 100%;
+    }
+
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .content{
+        padding-top: 15%;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 50px;
+        position: relative;
+        
+    }
+
+    .banner{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
     
+    .showoff{
+        margin-top: 100%;
+    }
+
+    .showoff1{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .showoff2{
+        padding: 5%;
+    }
+
+    .showoff4{
+        padding: 5%;
+    }
+
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .banner{
+        width: 100%;
+        height: 3000px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .BackgroundPic{
+        padding:200px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+        width:80%;
+        z-index: -1;
+        align-items: center;
+    }
+
+    .biography{
+        padding:8%;
+    }
+
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 11%;
+        width: 80%;
+        color: beige;
+        line-height: 30px;
+        margin-top: 130%;
+    }
+
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        width: 75%;
+        margin-left: 10%;
+    }
+
+    .content{
+        padding-top: 15%;
+    }
+
+    .content p{
+        font-size: 40px;
+    }
+
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 50px;
+        position: relative;
+        
+    }
+    
+    .showoff{
+        margin-top: 120%;
+    }
+
+    .showoff1{
+        margin: 0;
+        padding: 5%;
+    }
+
+    .showoff2{
+        padding: 5%;
+    }
+
+    .showoff4{
+        padding: 5%;
+    }
+
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
+
+    .showoff1{
+        padding: 50px;
+        width: 70%;
+        align-content: center;
+        margin-left: 13%;
+    }
+    
+    .showoff2{
+        padding: 50px;
+        width: 70%;
+        margin-left: 55px;
+        align-content: center;
+    }
+    
+    .showoff4{
+        padding: 50px;
+        width: 70%;
+        margin-left: 55px;
+        align-content: center;
+    }
+}
+
+@media (min-width:901px) and (max-width: 1400px) {
+
+    .banner{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: 360px;
+        cursor: pointer;
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+        
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: lightpink;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+        
+    }
+    
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    
+    .content{
+        top: 20%;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        text-align: center;
+        color: beige;
+    }
+    
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+    
+    .content p{
+        font-family: Brush Script MT;
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 40px;
+    }
+    
+    .biography{
+        padding: 3%;
+    }
+    
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 25px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 100;
+        width: 85%;
+        color: beige;
+        line-height: 30px;
+    }
+    
+    .BOLD{
+        color: lightpink;
+    }
+    
+    .BackgroundPic{
+        padding:200px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:1200px;
+        z-index: -1;
+    }
+    
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 40px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
+    
+    .showoff1{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+        margin-left: 13%;
+    }
+    
+    .showoff2{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+    }
+    
+    .showoff4{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+    }
 }
