@@ -325,14 +325,6 @@
         position: relative;
         
     }
-
-    .banner{
-        width: 100%;
-        height: 2500px;
-        background-color: black;
-        background-size: cover;
-        background-position: center;
-    }
     
     .showoff{
         margin-top: 120%;
