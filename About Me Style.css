@@ -107,7 +107,7 @@
 }
 
 .BackgroundPic{
-    padding:200px 0;
+    padding:300px 0;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -250,7 +250,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
 
     .BackgroundPic{
         padding:200px 0;
@@ -357,3 +357,143 @@
     }
 }
 
+@media (min-width:901px) and (max-width: 1400px) {
+
+    .banner{
+        width: 100%;
+        height: 2500px;
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .navbar{
+        width: 85%;
+        margin: auto;
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .logo{
+        width: 360px;
+        cursor: pointer;
+    }
+    
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+        
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    
+    .navbar ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: lightpink;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+        
+    }
+    
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    
+    .content{
+        top: 20%;
+        width: 100%;
+        position: absolute;
+        transform: translateY(-50%);
+        text-align: center;
+        color: beige;
+    }
+    
+    .content h1{
+        font-size: 70px;
+        margin-top: 80px;
+    }
+    
+    .content p{
+        font-family: Brush Script MT;
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 40px;
+    }
+    
+    .biography{
+        padding: 3%;
+    }
+    
+    .biography p{
+        font-family: customfont;
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 25px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 100;
+        width: 85%;
+        color: beige;
+        line-height: 30px;
+    }
+    
+    .BOLD{
+        color: lightpink;
+    }
+    
+    .BackgroundPic{
+        padding:20px 0;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        width:1200px;
+        z-index: -1;
+    }
+    
+    .showoff p{
+        font-family: customfont;
+        margin: 50px auto;
+        font-weight: 100;
+        line-height: 25px;
+        font-size: 40px;
+        position: absolute;
+        text-align: center;
+        color: beige;
+        position: relative;
+        color: lightpink;
+    }
+    
+    .showoff1{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+        margin-left: 13%;
+    }
+    
+    .showoff2{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+    }
+    
+    .showoff4{
+        padding: 50px;
+        width: 20%;
+        align-content: center;
+    }
+}
