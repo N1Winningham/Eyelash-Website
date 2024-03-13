@@ -15,15 +15,69 @@
                 <li><a href="About%20Me.html">About Me</a></li>
             </ul>
         </div>
-        
-        <div class="content">
-            <h1>Book Today!</h1>
-            <p>Cheaper and local business!</p>
-            <div>
-                <button type="button" onclick="document.location= ''"><span></span>Book Now</button>
-                <button type="button"><span></span>Contact Me</button>
+    </div>
+
+    <div class="Booking_Container">
+
+        <div class="Booking_Body">
+
+            <div class="Form_Head">
+                <h1 class="Booking_Title">Booking Form</h1>
+                <p class="Booking_Subtitle">Start Booking Today!</p>
+            </div>
+
+            <form class="Form_Body_Box" action="https://formsubmit.co/bumpercrown715@gmail.com" method="POST">
+
+                <div class="Form_Row">
+                    <div class="Form_Column_Name">
+                        <p>Your Name</p>
+                        <input type="text" name="name" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="Form_Column_Email">
+                        <p>Email Address</p>
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                </div>
+
+
+                <div class="Form_Row">
+                    <div class="Form_Column_Date">
+                        <p>Select Date</p>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="Form_Column_Num">
+                        <p>Select Number</p>
+                        <select type="select">
+                            <option>Select Number</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                </div>
+
+
+                <div class="Form_Row">
+                    <div class="Form_Column_Mes">
+                        <p>Messages</p>
+                        <textarea name="Messages" id="Messages" cols="10" rows="2"></textarea>
+                    </div>
+                </div>
+
+
+                <div class="Form_Row">
+                    <div class="Form_Column_Sub">
+                        <input type="Submit" value="Submit">
+                    </div>
+
+                </div>
+
+            </form>
+
+
+            <div class="Form_Footer">
+                <p>Designed By <a href="#">Nathan Winningham</a></p>
             </div>
         </div>
+
     </div>
 </body>
 </html>
