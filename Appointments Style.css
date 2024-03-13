@@ -125,8 +125,9 @@ button:hover{
 
 
 
-
-
+.Subbutton{
+    cursor: pointer;
+}
 
 input, textarea, select{
     width: 100%;
