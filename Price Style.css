@@ -13,7 +13,7 @@
 
 .secondhalfbanner{
     width: 100%;
-    height: 200vh;
+    height: 2000px;
     background-color: black;
     background-size: cover;
     background-position: center;
@@ -26,6 +26,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1.2rem;
 }
 
 .logo{
@@ -83,4 +84,13 @@
     font-weight: 100;
     line-height: 25px;
     font-size: 40px;
+}
+
+.PricePic{
+    padding:900px 0;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width:700px;
+    z-index: -1;
 }
