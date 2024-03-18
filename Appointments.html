@@ -2,6 +2,9 @@
 <head>
     <title>Lashes With Bryn</title>
     <link rel="stylesheet" href="Appointments%20Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="banner">
@@ -15,6 +18,11 @@
                 <li><a href="About%20Me.html">About Me</a></li>
             </ul>
         </div>
+    </div>
+
+    <div class="content">
+        <h1>BOOK APPOINTMENTS</h1>
+        <p>Scroll down to fill out the appointment submission form.</p>
     </div>
 
     <div class="Booking_Container">
@@ -31,26 +39,29 @@
                 <div class="Form_Row">
                     <div class="Form_Column_Name">
                         <p>Your Name</p>
-                        <input type="text" name="name" id="name" placeholder="Your Name">
+                        <input type="text" name="name" id="name" placeholder="Your Name" required>
                     </div>
                     <div class="Form_Column_Email">
                         <p>Email Address</p>
-                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required>
                 </div>
 
 
                 <div class="Form_Row">
                     <div class="Form_Column_Date">
                         <p>Select Date</p>
-                        <input type="date" name="date" id="date">
+                        <input type="date" name="date" id="date" required>
                     </div>
                     <div class="Form_Column_Num">
-                        <p>Select Number</p>
+                        <p>Service Type</p>
                         <select type="select">
-                            <option>Select Number</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
+                            <option>Select Service</option>
+                            <option value="1">Hybrid Full</option>
+                            <option value="2">Hybrid Fill</option>
+                            <option value="3">Volume Full</option>
+                            <option value="1">Volume Fill</option>
+                            <option value="2">Mini Fill</option>
+                            <option value="3">Removal</option>
                         </select>
                 </div>
 
