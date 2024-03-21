@@ -648,17 +648,17 @@
     }
     
     .biography p{
-        font-family: "Pacifico";
-        margin: 40px auto;
-        font-weight: 100;
-        line-height: 25px;
-        font-size: 25px;
-        position: absolute;
-        transform: translateY(-110%);
-        text-align: center;
-        left: 100;
-        width: 85%;
-        color: beige;
+    font-family: "Pacifico";
+    margin: 40px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 25px;
+    position: absolute;
+    transform: translateY(-110%);
+    text-align: center;
+    left: 100;
+    width: 85%;
+    color: beige;
     }
     
     .BOLD{
