@@ -651,7 +651,7 @@
     font-family: "Pacifico";
     margin: 40px auto;
     font-weight: 100;
-    line-height: 25px;
+    line-height: 40px;
     font-size: 25px;
     position: absolute;
     transform: translateY(-110%);
@@ -709,8 +709,20 @@
 
 /*Chrome*/
 @media screen and (-webkit-min-device-pixel-ratio:0)
-and (min-resolution:.001dpcm) {
-selector{ property:value; }
+and (min-resolution:.001dpcm) and (min-width:1401px) and (max-width: 1800px) {
+    .biography p{
+        font-family: "Pacifico";
+        margin: 40px auto;
+        font-weight: 100;
+        line-height: 40px;
+        font-size: 25px;
+        position: absolute;
+        transform: translateY(-110%);
+        text-align: center;
+        left: 100;
+        width: 85%;
+        color: beige;
+        }
 }
 
 /*Safari*/
