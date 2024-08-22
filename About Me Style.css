@@ -255,15 +255,18 @@
 
     .showoff1{
         margin: 0;
-        padding: 5%;
+        padding-left: 10%;
+        padding-right: 5%;
     }
 
     .showoff2{
-        padding: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .showoff4{
-        padding: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .showoff p{
