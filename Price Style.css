@@ -19,14 +19,6 @@
     background-position: center;
 }
 
-.secondhalfbanner{
-    width: 100%;
-    height: 125%;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-}
-
 .navbar{
     width: 85%;
     margin: auto;
@@ -65,7 +57,6 @@
     left: 0;
     bottom: -10px;
     transition: 0.5s;
-    
 }
 
 .navbar ul li:hover::after{
@@ -76,7 +67,7 @@
     width: 100%;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-150%);
     text-align: center;
     color: beige;
 }
@@ -103,4 +94,15 @@
     margin-right: auto;
     width:700px;
     z-index: -1;
+}
+
+.PriceList{
+    padding-top: 5%;
+    font-family: "Yellowtail";
+    font-size: 250%;
+    color: beige;
+    width: 15%;
+    text-align: center;
+    position: absolute;
+    transform: translateX(280%);
 }
