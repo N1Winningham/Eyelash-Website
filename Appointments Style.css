@@ -34,6 +34,7 @@ input, textarea, select{
 
 .Form_Body_Box{
     padding: 20px;
+    width: 30%;
 }
 
 .Form_Row{
@@ -62,8 +63,15 @@ input, textarea, select{
     color: beige;
 }
 
+.Booking_Body{
+    align-items: center;
+    justify-content: center;
+    padding-left: 41%;
+}
+
 .Form_Head{
     text-align: center;
+    width: 30%;
 }
 
 .Form_Head h1{
