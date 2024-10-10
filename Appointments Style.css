@@ -115,6 +115,11 @@ input, textarea, select{
     padding-bottom: 20px;
 }
 
+.Form_Column_Phone{
+    color: beige;
+    padding-bottom: 20px;
+}
+
 .Form_Column_Date{
     color: beige;
     padding-bottom: 20px;
